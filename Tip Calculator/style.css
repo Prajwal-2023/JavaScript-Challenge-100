@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 100%;
+  background: rgb(157, 182, 243);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 50rem;
+  height: 35rem;
+  border-radius: 1rem;
+  background-color: #f4f8db;
+  filter: drop-shadow(10px 10px black);
+  padding: 2rem;
+}
+
+.container h1 {
+  margin-bottom: 2rem;
+  font-size: 3rem;
+  text-align: center;
+}
+.container p {
+  font-size: 1.2rem;
+  text-align: left;
+}
+.bill-input {
+  width: 100%;
+  margin-top: 2rem;
+}
+.bill-input input {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.tip-input input {
+  width: 100%;
+  padding: 1rem 1rem;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.calculate-btn button {
+  width: 100%;
+  padding: 0.7rem 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: rgb(75, 55, 229);
+  color: #fff;
+  border-radius: .4rem;
+  padding: 1rem;
+  border: 1px solid #060710;
+}
+.calculate-btn button:hover{
+  background: rgb(83, 101, 237);
+}
+.amount-total {
+  width: 100%;
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+.amount-total p {
+  font-size: 1.4rem;
+}
+.amount-total #total-div {
+  font-size: 2.5rem;
+  font-weight: bold;
+}

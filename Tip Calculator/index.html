@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+</head>
+  <body>
+   <div class="main">
+    <div class="container">
+            <h1>Tip Calculator</h1>
+            <p>Enter the bill amount and tip to calculate the total.</p>
+            <div class="bill-input">
+                <p>Bill amount:</p>
+                <input type="number" id="bill-elem" min="0"/>
+            </div>
+            <div class="tip-input">
+                <p>Tip percentage:</p>
+                <input type="number" id="tip-elem" min="0"/>
+            </div>
+             <div class="calculate-btn">
+                <button id="calculate-elem">Calculate</button>
+            </div>
+            <div class="amount-total">
+                <p>Total:</p>
+                <p id="total-div">$<span></span></p>
+            </div>
+    </div>
+   </div>
+   <script src="./script.js"></script>
+  </body>
+</html>
