@@ -15,16 +15,14 @@ async function fetchRecipe() {
   } catch (error) {
     console.error(error);
   }
+  console.log(data);
 
-  const recipeImage = document.getElementById("recipe-image");
-  const recipeName = document.getElementById("recipe-name");
-  const recipeIngredients = document.getElementById("recipe-Ingredients");
   const container = document.querySelector(".container");
-  let recipeCopy;
+  let recipeCopy = "";
   data.recipes.forEach((d) => {
     recipeCopy += `<div id="recipe-div" class="recipe-class-elem">
           <div class="image-div">
-            <img id="recipe-image" src=${d.image}/>
+            <img id="recipe-image" src=${d.image} />
           </div>
           <h2 id="recipe-name">${d.name}</h2>
           <span>
