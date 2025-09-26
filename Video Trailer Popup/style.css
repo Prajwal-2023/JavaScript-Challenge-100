@@ -18,8 +18,41 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
+  flex-direction: column;
 }
 
 .main img{
   width: 40%;
+  margin-bottom: 3rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
 }
+
+.details-div{
+  width: 40%;
+}
+.details-div button{
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.details-div h1{
+margin-bottom: 2rem;
+font-size: 2.5rem;
+}
+.details-div p{
+margin-bottom: 2rem;
+line-height: 2rem;
+font-size: 1.3rem;
+}
+
+
+
+
+
+
